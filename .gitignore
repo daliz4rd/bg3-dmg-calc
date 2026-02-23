@@ -1,0 +1,23 @@
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+bin/
+lib/
+
+# --- Python Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific ---
+.env
