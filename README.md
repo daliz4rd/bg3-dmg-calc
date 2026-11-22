@@ -1,5 +1,7 @@
 # BG3 Synergy Explorer
 
+**Live demo: https://daliz4rd.github.io/bg3-dmg-calc/**
+
 Choosing gear in Baldur's Gate 3 is overwhelming because items rarely matter on their own. They matter because they feed shared **mechanics**: conditions like Radiating Orb, Arcane Acuity, Reverberation or Lightning Charges. One piece *applies* the condition, another *pays off* from it, and a good loadout links them.
 
 This tool organizes gear around those mechanics:
@@ -31,4 +33,7 @@ The starter dataset covers 28 items across 4 mechanics. Effects are paraphrased 
 - More mechanics (bleeding, Wet + lightning/cold, Psychic, Ki and Bardic Inspiration support gear)
 - Damage calculator: expected damage per turn for a loadout against a target AC
 - Data import pipeline from game stat files instead of hand curation
-- Deploy to GitHub Pages
+
+## Deployment
+
+Every push to `main` runs `.github/workflows/deploy.yml`, which lints, tests, builds and publishes to GitHub Pages.
